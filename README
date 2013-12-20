@@ -1,4 +1,6 @@
-This repository holds odbc driver written in go.
+This repository is a fork and improved version of [https://code.google.com/p/odbc](https://code.google.com/p/odbc).
 
 It implements database driver interface as used by standard database/sql package.
 Calls into odbc dll on Windows, and uses cgo everywhere else.
+
+Currently, it supports sqlserver.
