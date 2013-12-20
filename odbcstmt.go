@@ -5,10 +5,10 @@
 package odbc
 
 import (
-	"code.google.com/p/odbc/api"
 	"database/sql/driver"
 	"errors"
 	"fmt"
+	"github.com/lunny/godbc/api"
 	"sync"
 	"time"
 	"unsafe"

@@ -5,9 +5,9 @@
 package odbc
 
 import (
-	"code.google.com/p/odbc/api"
 	"database/sql/driver"
 	"errors"
+	"github.com/lunny/godbc/api"
 )
 
 type Tx struct {

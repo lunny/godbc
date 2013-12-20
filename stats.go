@@ -5,8 +5,8 @@
 package odbc
 
 import (
-	"code.google.com/p/odbc/api"
 	"fmt"
+	"github.com/lunny/godbc/api"
 	"sync"
 )
 

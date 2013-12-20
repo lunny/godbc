@@ -5,10 +5,10 @@
 package odbc_test
 
 import (
-	_ "code.google.com/p/odbc"
 	"database/sql"
 	"flag"
 	"fmt"
+	_ "github.com/lunny/godbc"
 	"testing"
 	"time"
 )

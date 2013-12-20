@@ -5,8 +5,8 @@
 package odbc
 
 import (
-	"code.google.com/p/odbc/api"
 	"database/sql/driver"
+	"github.com/lunny/godbc/api"
 	"unsafe"
 )
 
